@@ -1,0 +1,5 @@
+Bir e ticaret sitesine gelen siparişleri aşağıdaki kurallara göre sipariş kuyruğuna ekleyen ve kuyruktan çıkaran fonksiyonlari tek yönlü bağlı liste veri yapısıni kullanarak yazınız. 
+
+Kural 1- ekleme işlemi sırasında siparişler kuyruğa siparişin fiyatına göre büyükten küçüğe doğru eklenecektir. Örnek olarak kuyruktaki siparişlerin hepsinden fiyatı daha yüksek bir sipariş geldiğinde kuyruğun en başına eklenecektir.
+
+Kural 2- kuyruktan siparişi alma işlemi sırasında kuyrukta "en fazla sayıda" ve "minimum üç kere" otelenmis sipariş öncelikle kuyruktan çıkarılacaktır. Böyle bir sipariş yoksa kuyruğun başındaki sipariş kuyruktan çıkarılacaktir.
